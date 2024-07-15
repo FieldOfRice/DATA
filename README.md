@@ -5,7 +5,8 @@
 
 To remove files which are "Access denied" use an elevated CMD and type  
   <code>sc config TrustedInstaller binPath= "cmd.exe /C del path/to/file"</code>  
-  <code>sc start TrustedInstaller</code>
+  <code>sc start TrustedInstaller</code>  
+  <code>sc config TrustedInstaller binPath= "C:\Windows\servicing\TrustedInstaller.exe"</code>  
 
 #### Linux ####
 
