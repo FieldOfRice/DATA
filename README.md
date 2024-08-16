@@ -12,9 +12,28 @@ Or with Powershell type
   <code>$p = Get-NtProcess -Name TrustedInstaller</code>  
   <code>$proc = New-Win32Process cmd.exe -CreationFlags NewConsole -ParentProcess $p</code>  
 
+To access all files of the WSL2 filesystem from W11 use Explorer e.g. <code>\\wsl$\Ubuntu-20.04\</code>
+
 #### Linux ####
 
-tbd
+Luks related commands:<code>
+# create
+dd if=/dev/urandom of=special.img bs=1M count=1024
+cryptsetup --verify-passphrase luksFormat special.img
+sudo cryptsetup open --type luks special.img myspecial
+ls /dev/mapper/myspecial
+sudo mkfs.ext4 -L myspecial /dev/mapper/myspecial
+sudo cryptsetup close myspecial
+sudo mkdir /myspecial
+sudo chmod a+rwx /myspecial
+# open
+sudo cryptsetup open --type luks special.img myspecial
+ls /dev/mapper/myspecial
+sudo mount /dev/mapper/myspecial /myspecial
+ls -alL /myspecial/
+# close (don't forget it...)
+sudo umount /myspecial
+sudo cryptsetup close myspecial</code>
 
 #### Abbreviations ####
 
