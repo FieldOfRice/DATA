@@ -35,6 +35,12 @@ ls -alL /myspecial/
 sudo umount /myspecial
 sudo cryptsetup close myspecial
 ~~~
+#### debian 12 bookworm unable to install openssh-server, needed commands are:
+~~~
+mv -i /var/lib/apt/lists/deb.debian.org_debian_dists_bookworm_InRelease
+apt-get update
+apt-get install openssh-server
+~~~
 
 #### Abbreviations ####
 
