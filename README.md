@@ -12,11 +12,10 @@ Or with Powershell type
   <code>$p = Get-NtProcess -Name TrustedInstaller</code>  
   <code>$proc = New-Win32Process cmd.exe -CreationFlags NewConsole -ParentProcess $p</code>  
 
-To access all files of the WSL2 filesystem from W11 use Explorer e.g. <code>\\wsl$\Ubuntu-20.04\</code>
+To access all files of the WSL2 filesystem from W11 use Explorer e.g. `\\wsl$\Ubuntu-20.04\`
 
 #### Linux ####
-
-##### Luks related commands:
+##### Luks related commands
 ~~~
 # create
 dd if=/dev/urandom of=special.img bs=1M count=1024
