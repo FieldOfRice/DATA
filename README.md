@@ -16,7 +16,7 @@ To access all files of the WSL2 filesystem from W11 use Explorer e.g. <code>\\ws
 
 #### Linux ####
 
-Luks related commands:
+##### Luks related commands:
 ~~~
 # create
 dd if=/dev/urandom of=special.img bs=1M count=1024
