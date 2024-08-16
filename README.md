@@ -16,7 +16,8 @@ To access all files of the WSL2 filesystem from W11 use Explorer e.g. <code>\\ws
 
 #### Linux ####
 
-Luks related commands:<code>
+Luks related commands:
+~~~
 # create
 dd if=/dev/urandom of=special.img bs=1M count=1024
 cryptsetup --verify-passphrase luksFormat special.img
@@ -33,7 +34,8 @@ sudo mount /dev/mapper/myspecial /myspecial
 ls -alL /myspecial/
 # close (don't forget it...)
 sudo umount /myspecial
-sudo cryptsetup close myspecial</code>
+sudo cryptsetup close myspecial
+~~~
 
 #### Abbreviations ####
 
