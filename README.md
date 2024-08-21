@@ -13,7 +13,7 @@ Or with Powershell type
   <code>$proc = New-Win32Process cmd.exe -CreationFlags NewConsole -ParentProcess $p</code>  
 
 Interesting Data with downloaded files  
-  <code>cd C:\Users\...\Downloads</code>  
+  <code>cd C:\Users\\...\Downloads</code>  
   <code>DIR /R</code>  
   <code>notepad ...:Zone.Identifier:$DATA</code>  
     reveals download URL and Referrer URL  
