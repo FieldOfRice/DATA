@@ -13,9 +13,9 @@ Or with Powershell type
   <code>$proc = New-Win32Process cmd.exe -CreationFlags NewConsole -ParentProcess $p</code>  
 
 Interesting Data with downloaded files  
-  cd C:\Users\...\Downloads  
-  DIR /R  
-  notepad ...:Zone.Identifier:$DATA  
+  <code>cd C:\Users\...\Downloads</code>  
+  <code>DIR /R</code>  
+  <code>notepad ...:Zone.Identifier:$DATA</code>  
     reveals download URL and Referrer URL  
 
 To access all files of the WSL2 filesystem from W11 use Explorer e.g. `\\wsl$\Ubuntu-20.04\` or `wsl.localhost\Ubuntu-20.04\`
