@@ -56,6 +56,7 @@ apt-get install openssh-server
 |AES    | Advanced Encryption Standard||
 |AI     | Artificial Intelligence||
 |AMOLED | Active Matrix Organic Light Emitting Diode||
+|ARP    | Address Resolution Protocol (IPv4) | https://en.wikipedia.org/wiki/Address_Resolution_Protocol|
 |ASM    | Attack Surface Management||
 |ATM    | Automated Teller Machine||
 |AV     | Antivirus||
@@ -63,6 +64,7 @@ apt-get install openssh-server
 |BU     | Backup||
 |CA     | Configuration Assessment, Compliance and Auditing||
 |CFG    | Classifier Free Guidance||
+|CIS    | Center for Internet Security | https://de.wikipedia.org/wiki/Center_for_Internet_Security https://www.cisecurity.org/|
 |CKPT   | Checkpoint||
 |CNAME  | Canonical Name Record (see DNS)||
 |CNCF   | Cloud Native Computing Foundation||
@@ -70,7 +72,9 @@ apt-get install openssh-server
 |CRTP   | Certified Red Team Professional||
 |CS     | Cloud Security / Container Security||
 |CSF    | Cyber Security Framework||
+|CVE    | Common Vulnerabilities and Exposures | https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures|
 |DDD    | Domain Driven Design||
+|DEFCON | Defense Condition | https://en.wikipedia.org/wiki/DEFCON https://defcon.org/ |
 |DFIR   | Digital Forensics and Incident Response||
 |DFS    | Depth First Search (Stack)||
 |DHCP   | Dynamic Host Configuration Protocol (Port Server 67, Client 68)||
@@ -123,6 +127,7 @@ apt-get install openssh-server
 |LED    | Light Emitting Diode||
 |LGTM   | Looks Good To Me||
 |LLM    | Large Language Model||
+|LOLBAS | Living Off The Land Binaries and Scripts (and Libraries) | https://github.com/LOLBAS-Project/LOLBAS/blob/master/README.md|
 |LORA   | Low Rank Adaptation||
 |MAN    | Metropolitan Area Network||
 |MD     | Manhattan Distance||
@@ -137,12 +142,14 @@ apt-get install openssh-server
 |NDR    | Network Detection Response||
 |NF     | Normalized Float||
 |NFC    | Near Field Communication||
+|NIST   | US National Institute of Standards and Technology | https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology|
 |NNTP   | Network News Transfer Protocol||
 |NTP    | Network Time Protocol||
 |OLED   | Organic Light Emitting Diode||
 |OOTB   | Out Of The Box||
 |OS     | Operating System||
 |OSI    | Open Systems Interconnection||
+|OSSEC  | Open Source HIDS Security | https://en.wikipedia.org/wiki/OSSEC https://www.ossec.net/|
 |OTG    | On The Go||
 |PAN    | Personal Area Network||
 |PAN    | Permanent Account Number||
@@ -156,11 +163,14 @@ apt-get install openssh-server
 |POP3   | Post Office Protocol (Port 110)||
 |PPA    | Post Privacy Age||
 |PPI    | Pixels Per Inch||
+|PPP    | Point To Point Protocol | https://en.wikipedia.org/wiki/Point-to-Point_Protocol|
 |PTR    | Pointer Resource Record (see DNS)||
+|QOTD   | Quote of The Day (Port 17) | https://en.wikipedia.org/wiki/QOTD|
 |QVGA   | Quarter VGA||
 |RA     | Risk Analysis||
 |RAG    | Retrieval Augmented Generation||
 |RAM    | Random Access Memory||
+|RARP   | Reverse ARP | https://en.wikipedia.org/wiki/Reverse_Address_Resolution_Protocol|
 |RC     | Regulatory Compliance|||
 |RCE    | Remote Code Execution||
 |RDP    | Remote Desktop Protocol (Port 3389)||
@@ -170,6 +180,7 @@ apt-get install openssh-server
 |SCA    | Security Configuration Assessment||
 |SEM    | Security Event Management||
 |SFTP   | Secure file Transfer Protocol||
+|SIEM   | Security Information and Event Management aka SEM + SIM | https://en.wikipedia.org/wiki/Security_information_and_event_management|
 |SIM    | Security Information Management||
 |SIM    | Subscriber Identity Module||
 |SLCD   | Super Liquid Crystal Display||
@@ -184,7 +195,9 @@ apt-get install openssh-server
 |SSL    | Secure Socket Layer||
 |SWIFT  | Society For Worldwide Interbank Financial Telecommunication||
 |TCP    | Transmission Control Protocol||
+|TELNET | Teletype Network (Port 23) | https://en.wikipedia.org/wiki/Telnet|
 |TI     | Threat Intelligence||
+|TLS    | Transport Layer Security | https://en.wikipedia.org/wiki/Transport_Layer_Security|
 |UAC    | User Account Control||
 |UDP    | User Datagram Protocol||
 |UMTS   | Universal Mobile Telecommunications System||
@@ -192,6 +205,7 @@ apt-get install openssh-server
 |URL    | Uniform Resource Locator||
 |USB    | Universal Serial Bus||
 |USO    | Update Session Orchestrator||
+|UTC    | Coordinated Universal Time | https://en.wikipedia.org/wiki/Coordinated_Universal_Time|
 |VD     | Vulnerability Detection||
 |VGA    | Video Graphics Array/Adapter||
 |VM     | Vulnerability Management||
