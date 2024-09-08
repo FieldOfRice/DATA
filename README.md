@@ -3,22 +3,22 @@
 
 #### Windows ####
 
-To remove files which are "Access denied" use an elevated CMD and type  
+* To remove files which are "Access denied" use an elevated CMD and type  
   <code>sc config TrustedInstaller binPath= "cmd.exe /C del path/to/file"</code>  
   <code>sc start TrustedInstaller</code>  
   <code>sc config TrustedInstaller binPath= "C:\Windows\servicing\TrustedInstaller.exe"</code>  
-Or with Powershell type  
+* Or with Powershell type  
   <code>sc.exe start TrustedInstaller</code>  
   <code>$p = Get-NtProcess -Name TrustedInstaller</code>  
   <code>$proc = New-Win32Process cmd.exe -CreationFlags NewConsole -ParentProcess $p</code>  
 
-Interesting Metadata at downloaded files  
+* Interesting Metadata at downloaded files  
   <code>cd C:\Users\\...\Downloads</code>  
   <code>DIR /R</code>  
   <code>notepad ...:Zone.Identifier:$DATA</code>  
     reveals download URL and Referrer URL  
 
-To access all files of the WSL2 filesystem from W11 use Explorer e.g. `\\wsl$\Ubuntu-20.04\` or `wsl.localhost\Ubuntu-20.04\`
+* To access all files of the WSL2 filesystem from W11 use Explorer e.g. `\\wsl$\Ubuntu-20.04\` or `wsl.localhost\Ubuntu-20.04\`
 
 #### Linux ####
 ##### Luks related commands
