@@ -12,7 +12,7 @@ Or with Powershell type
   <code>$p = Get-NtProcess -Name TrustedInstaller</code>  
   <code>$proc = New-Win32Process cmd.exe -CreationFlags NewConsole -ParentProcess $p</code>  
 
-Interesting Data with downloaded files  
+Interesting Metadata at downloaded files  
   <code>cd C:\Users\\...\Downloads</code>  
   <code>DIR /R</code>  
   <code>notepad ...:Zone.Identifier:$DATA</code>  
