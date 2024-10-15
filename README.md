@@ -20,6 +20,11 @@
 
 * To access all files of the WSL2 filesystem from W11 use Explorer e.g. `\\wsl$\Ubuntu-20.04\` or `wsl.localhost\Ubuntu-20.04\`
 
+* list proxies: netsh interface portproxy show all
+  
+* admin Powershell: (Get-MpPreference).ExclusionPath
+* user  Powershell: & 'C:\Program Files\Windows Defender\MpCmdRun.exe' -Scan -ScanType 3 -File "C:\<path to check>|*" # would print "Scanning … was skipped"
+
 #### Linux ####
 ##### Luks related commands
 ~~~
