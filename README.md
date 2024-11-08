@@ -22,8 +22,8 @@
 
 * list proxies: netsh interface portproxy show all
 
-* Add the openSSH Feature
-* tunnel using rdp A: ssh -L 10000:localhost:3389 username@192.168.16.8 # login with username and password and keep shell open (do NOT use keys, use your brain)
+* Add the openSSH Feature  
+* tunnel using rdp A: ssh -L 10000:localhost:3389 username@192.168.16.8 # login with username and password and keep shell open (do NOT use keys, use your brain)  
 * tunnel using rdp B: mstsc /v:localhost:10000 # initiate the rdp session to the rdp server running at the remote(rdp server listens on localhost only)
 
 * admin Powershell: (Get-MpPreference).ExclusionPath
