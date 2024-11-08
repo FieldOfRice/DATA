@@ -21,7 +21,11 @@
 * To access all files of the WSL2 filesystem from W11 use Explorer e.g. `\\wsl$\Ubuntu-20.04\` or `wsl.localhost\Ubuntu-20.04\`
 
 * list proxies: netsh interface portproxy show all
-  
+
+* Add the openSSH Feature
+* tunnel using rdp A: ssh -L 10000:localhost:3389 username@192.168.16.8 # login with username and password and keep shell open (do NOT use keys, use your brain)
+* tunnel using rdp B: mstsc /v:localhost:10000 # initiate the rdp session to the rdp server running at the remote(rdp server listens on localhost only)
+
 * admin Powershell: (Get-MpPreference).ExclusionPath
 * user  Powershell: & 'C:\Program Files\Windows Defender\MpCmdRun.exe' -Scan -ScanType 3 -File "C:\<path to check>|*" # would print "Scanning … was skipped"
 
