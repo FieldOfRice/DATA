@@ -30,6 +30,10 @@
 * user  Powershell: & 'C:\Program Files\Windows Defender\MpCmdRun.exe' -Scan -ScanType 3 -File "C:\<path to check>|*" # would print "Scanning … was skipped"
 
 #### Linux ####
+##### mount iso
+~~~
+sudo mount -o loop /path/filename.iso /mnt; ls -alL /mnt
+~~~
 ##### Luks related commands
 ~~~
 # create
