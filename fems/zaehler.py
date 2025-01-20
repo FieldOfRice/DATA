@@ -8,9 +8,6 @@ import requests
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
-yesterday_value: datetime = datetime.now()
-yesterday_prefix: str = yesterday_value.strftime('%Y%m%d_%M%H%S')
-
 debug: bool = False
 error: str
 spreadsheet_path: str
