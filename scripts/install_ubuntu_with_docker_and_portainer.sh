@@ -41,3 +41,6 @@ docker run -d -p 9443:9443 --name portainer --restart=always \
   portainer/portainer-ce:latest
 
 echo "### install complete."
+
+# usage example:
+# wget https://raw.githubusercontent.com/FieldOfRice/DATA/refs/heads/main/scripts/install_ubuntu_with_docker_and_portainer.sh && chmod a+x ./install_ubuntu_with_docker_and_portainer.sh && ./install_ubuntu_with_docker_and_portainer.sh
